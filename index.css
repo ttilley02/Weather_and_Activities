@@ -1,0 +1,166 @@
+body * {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    font-size: 1.2em;
+    color:rgb(9, 144, 181);
+    background-color:white;
+    padding: 0;
+    margin: 0;
+}
+  
+.container {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+.box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding:10px;
+    border: solid grey 2px;
+
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  margin: 1rem 0;
+}
+
+ul {
+  padding-right: 40px;
+}
+
+
+.search-form {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+
+
+input[type=text] {
+    border:1px solid darkgrey;
+    outline-color: 3px solid green;
+    font-size: 1rem;
+}
+#search-label{
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.error {
+    color: red;
+}
+
+/** any results related styling**/
+.results {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow:0px 3px 5px 1px lightgray;
+    padding: 15px;
+    font-size: 1rem;
+    
+}
+
+/** hyper link decoration **/
+.details{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    
+}
+.details-f{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    text-align: center;
+}
+
+
+
+/** Duckduckgo text **/
+.duck{
+text-align: center;
+}
+
+/** hyper link decoration **/
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+}
+
+
+/**     ACTIVITY LIST STYLING **/
+
+.activity {
+    background-color: rgb(245, 245, 245);
+    color: black;
+    justify-content: center;
+    cursor: pointer;
+    height:80px;
+    width: 260px;
+    border: solid black;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 4%;
+}
+.activity-photo {
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    border: solid black;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+p {
+    display: inline-block;
+}
+
+/*****************Individual Acitivity Page******************/
+.activity-photo-big {
+    height:175px;
+    width: 175px;
+    border: solid black;
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: auto ;
+}
+h2 {
+    font-size: 16px;
+}
