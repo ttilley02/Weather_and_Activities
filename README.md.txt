@@ -1,5 +1,7 @@
 WEATHER ACTIVITIES API HACK Rev1 3/7/2020
 
+https://ttilley02.github.io/Weather_and_Activities/
+
 ----Objective----
 To access multiple API and assist the user in finding out/suggesting which activities they can do given the weather
 
@@ -15,3 +17,4 @@ The user then can click on each activity to find out more information on said ac
 
 Tim Tilley
 Christopher Mojekwu
+

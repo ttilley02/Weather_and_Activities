@@ -290,7 +290,6 @@ function displayForecast(forecastResponse){
  <input class="home" type="button" value="Start Over">`
  
  $('.forecast').on('click', e => {
-     console.log("erererere")
      $('.container').html(forecastHtml)
  })
 }
