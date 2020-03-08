@@ -622,7 +622,7 @@ function locationQuery() {
 function queryBasedCoords(query) {
   $('#js-form').html(`<input class="forecast" type="button" value=" Check your forecast">`)
   
-  const url = `http://dev.virtualearth.net/REST/v1/Locations/${query}?maxResults=1&key=AonXLGNhvKvknSiJ_NL7Mi9R0_I2uy-wUaFmSeR7AdvlMVZ1fe3rRiFDqNcL1spi`
+  const url = `https://dev.virtualearth.net/REST/v1/Locations/${query}?maxResults=1&key=AonXLGNhvKvknSiJ_NL7Mi9R0_I2uy-wUaFmSeR7AdvlMVZ1fe3rRiFDqNcL1spi`
  
   fetch(url)
   .then(function(response){return response.json();})
